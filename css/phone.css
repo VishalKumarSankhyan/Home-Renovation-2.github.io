@@ -216,8 +216,29 @@
         font-size: 0.9rem;
         padding: 0px 6px;
     }
+    #services .box img{
+        height: 100px;
+    }
 }
-
+@media only screen and (max-width:299px){
+    #product-used::before{
+        height: 1180px;
+    }
+}
+@media only screen and (max-width:260px){
+    #navbar{
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width:260px){
+    #client-item-3 img{
+        height: 50px;
+        padding: 0px 10px;
+    }
+    #product-used::before{
+        height: 1160px;
+    }
+}
 /*screen size is lees then 260*/
 @media only screen and (max-width:258px){
 
@@ -230,25 +251,33 @@
     .btn {
         font-size: 0.7rem;
     }
-   #services{
+    #services{
        overflow: hidden;
 
-   }
-   #clients{
+    }
+    #clients{
        overflow: hidden;
-   }
-   #home{
+    }
+    #home{
        overflow: hidden;
-   }
-   #navbar ul li a{
-    font-size: 0.7rem;
-    padding: 0px 4px;
-}
+    }
+    #navbar ul li a{
+        font-size: 0.7rem;
+        padding: 0px 4px;
+    }
+    #services .box img{
+        height: 60px;
+    }
 }
 /*screen size is lees then 180*/
 @media only screen and (max-width:180px){
     .h-primary {
         overflow: hidden;
+    }
+    .h-secondary{
+    
+        font-size: 0.3rem;
+        
     }
     #navbar{
         overflow: hidden;
@@ -256,4 +285,8 @@
     #contact-box label {
         font-size: 0.1rem;
     }
+    #services .box img{
+        height: 40px;
+    }
+    
 }
