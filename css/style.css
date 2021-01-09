@@ -156,9 +156,26 @@ html{
     display: block;
     margin: auto;
 }
-#services{}
-#services{}
 
+#services .btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .btn-1 button{
+    width: 80%;
+    height: 35%;
+    border-radius: 10px;
+    margin: 4px 0px;
+    background-color: #eee4e44d;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+#services .btn-1 button:hover{
+    color: aqua;
+    border-color: aqua;
+}
 /*-Product used of company-*/
 #product-used{
     /*position: relative;*/
@@ -269,6 +286,18 @@ html{
 #contact-box label{
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+.btn--1 button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    background-color: #eee4e44d;
+    cursor: pointer;
+}
+.btn--1 button:hover{
+    color: aqua;
+    border-color:aqua;
 }
 /*foter steyling*/
 footer{
