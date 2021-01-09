@@ -269,6 +269,17 @@
         height: 60px;
     }
 }
+@media only screen and (max-width:240px){
+    .h2.scondary{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:253px){
+    .h2.scondary{
+        font-size: 10px;
+    }
+}
 /*screen size is lees then 180*/
 @media only screen and (max-width:180px){
     .h-primary {
